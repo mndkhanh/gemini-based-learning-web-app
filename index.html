@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>English Learning App</title>
+      <link rel="stylesheet" href="./index.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+      <link rel="manifest" href="./assets/favicons/site.webmanifest">
+</head>
+
+<body>
+      <div class="navbar">
+            <ul>
+                  <li><a href="#">Search Vocab</a></li>
+                  <li><a href="./storage.html">Storage</a></li>
+            </ul>
+      </div>
+      <br>
+      <div class="container">
+            <button id="saveBtn">Save</button>
+            <button id="eraseBtn">Erase</button>
+            <div class="img-section">
+                  <img src="./assets/GoGlobal.jpg" alt="Ảnh minh họa từ vựng">
+            </div>
+            <div class="cta-section">
+                  <div class="input-section">
+                        <label>Image:</label>
+                        <input type="text" placeholder="Image url" id="imageUrlInp">
+                        <br>
+                        <label>Vocabulary:</label>
+                        <input type="text" placeholder="Search" id="searchInp">
+                  </div>
+                  <div class="comment-section">
+                        <h4>Gemini Generated Comments:</h4>
+                        <textarea id="cmtTextArea" placeholder="..."></textarea>
+                  </div>
+            </div>
+
+      </div>
+
+      <script type="module" src="./index.js"></script>
+</body>
+
+</html>
